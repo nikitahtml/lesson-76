@@ -37,6 +37,7 @@ const MessageForm: React.FC<MessageFormProps> = ({ onSend }) => {
                 Send
             </Button>
         </div>
+
     );
 };
 
