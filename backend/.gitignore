@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.swp
+*.swo
