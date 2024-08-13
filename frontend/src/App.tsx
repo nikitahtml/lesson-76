@@ -8,7 +8,6 @@ import './App.css';
 const App: React.FC = () => {
     const { messages, sendMessage } = useMessages();
 
-
     return (
         <Container className="container">
             <MessageForm onSend={sendMessage} />

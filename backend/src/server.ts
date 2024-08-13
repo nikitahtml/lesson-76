@@ -36,7 +36,7 @@ const writeMessages = (messages: any[]) => {
 app.get('/messages', (req: Request, res: Response) => {
     try {
         const messages = readMessages();
-        res.json(messages.slice(-30)); // Возвращаем последние 30 сообщений
+        res.json(messages.slice(-30));
     } catch (error) {
         console.error('Error handling GET /messages:', error);
         res.status(500).json({ error: 'Internal Server Error' });
